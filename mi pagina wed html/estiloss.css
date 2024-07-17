@@ -1,0 +1,35 @@
+ * {
+ font-family: sans-serif;
+ font-size: 16px;  
+ }
+ body {
+    background-color: black;
+    color: blueviolet;
+ }
+ p{
+    text-align: justify;
+    color: blanchedalmond;
+ }
+
+ a{
+    color: gold;
+ }
+
+ li{
+    color: chocolate;
+    font-style: italic;
+ }
+
+
+ .Subtitulo {
+    font: bold;
+    text-transform: uppercase;
+    color: greenyellow;
+ }
+
+ #titulo {
+    color: aqua;
+    text-align: center;
+    font-size: 30px;
+ }
+  

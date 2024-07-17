@@ -1,0 +1,23 @@
+ul{
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border: 1px solid black;
+    padding:10px ;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* pseudoclase fifst-child(representa el primer elemento entre un grupo de elmento hermanos.)*/ 
+/* pseudoclase fifst-child(representa el ultimo elemento entre un grupo de elmento hermanos.)*/ 
+/* pseudoclase nth-child()(selecciona elementoen funcion de su posicion  entre un grupo de elmento hermanos.)*/
+ /* pseudoclase nth-child(odd)(selecciona elementoen funcion de su posicion  entre un grupo de elmento hermanos es impar)*/
+ /* pseudoclase nth-child(even)(selecciona elementoen funcion de su posicion  entre un grupo de elmento hermanos es par )*/
+li:nth-child(odd){
+    background-color: orangered
+}
